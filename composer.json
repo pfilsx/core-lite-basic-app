@@ -1,0 +1,41 @@
+{
+  "name": "pfilsx/core-lite-basic-app",
+  "description": "Basic application template for Core-Lite framework",
+  "keywords": ["core-lite", "basic-app"],
+  "type": "project",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/pfilsx/core-lite-basic-app/issues",
+    "source": "https://github.com/pfilsx/core-lite-basic-app"
+  },
+  "authors": [
+    {
+      "name": "Pavel Filimonov",
+      "email": "pfilsx@gmail.com"
+    }
+  ],
+  "require": {
+    "pfilsx/core-lite": "dev-develop as 1.5-dev",
+    "pfilsx/core-lite-bootstrap3": ">= 1.5",
+    "pfilsx/core-lite-generator": "dev-develop"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/pfilsx/core-lite"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/pfilsx/core-lite-bootstrap3"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/pfilsx/core-lite-generator"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "core\\generator\\": ""
+    }
+  }
+}

@@ -1,0 +1,8 @@
+<?php
+
+require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/vendor/pfilsx/core-lite/Core.php';
+
+$config = require __DIR__ . '/config/console.php';
+
+(new \core\console\App($config))->run();
