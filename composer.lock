@@ -56,7 +56,7 @@
                 "issues": "https://github.com/pfilsx/core-lite/issues?state=open",
                 "source": "https://github.com/pfilsx/core-lite"
             },
-            "time": "2017-11-25 14:18:28"
+            "time": "2017-11-25T14:18:28+00:00"
         },
         {
             "name": "pfilsx/core-lite-bootstrap3",
@@ -107,18 +107,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pfilsx/core-lite-generator.git",
-                "reference": "c33b01de2e2153d387a053276dbf1895bfcce378"
+                "reference": "2b71e62787e06f06f89ff52917f88f5a5181c2dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pfilsx/core-lite-generator/zipball/c33b01de2e2153d387a053276dbf1895bfcce378",
-                "reference": "c33b01de2e2153d387a053276dbf1895bfcce378",
+                "url": "https://api.github.com/repos/pfilsx/core-lite-generator/zipball/2b71e62787e06f06f89ff52917f88f5a5181c2dd",
+                "reference": "2b71e62787e06f06f89ff52917f88f5a5181c2dd",
                 "shasum": ""
             },
             "require": {
                 "pfilsx/core-lite": ">= 1.5"
             },
-            "type": "core-lite-extension",
+            "type": "library",
             "autoload": {
                 "psr-4": {
                     "core\\generator\\": ""
@@ -142,7 +142,7 @@
                 "issues": "https://github.com/pfilsx/core-lite-generator/issues",
                 "source": "https://github.com/pfilsx/core-lite-generator"
             },
-            "time": "2017-11-25 14:57:30"
+            "time": "2017-11-26T07:20:29+00:00"
         }
     ],
     "packages-dev": [],
