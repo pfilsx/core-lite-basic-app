@@ -1,6 +1,6 @@
 <?php
 
-return [
+$config = [
     'db' => require __DIR__ . '/db.php',
     'basePath' => dirname(__DIR__),
     'routing' => [
@@ -12,8 +12,12 @@ return [
             ]
     ],
     'modules' => [
-        'generator' => [
-            'class' => 'core\generator\Generator'
-        ]
     ]
 ];
+
+if (CRL_ENV == 'dev'){
+    $config['modules']['generator'] = [
+        'class' => 'core\generator\Generator'
+    ];
+}
+return $config;

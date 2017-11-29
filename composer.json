@@ -15,9 +15,9 @@
     }
   ],
   "require": {
-    "pfilsx/core-lite": "dev-develop as 1.5-dev",
-    "pfilsx/core-lite-bootstrap3": ">= 1.5",
-    "pfilsx/core-lite-generator": "dev-develop"
+    "pfilsx/core-lite": "dev-develop as 1.5",
+    "pfilsx/core-lite-bootstrap3": "dev-master as 1.5",
+    "pfilsx/core-lite-generator": "dev-develop as 1.5"
   },
   "repositories": [
     {
