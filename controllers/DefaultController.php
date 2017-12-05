@@ -10,6 +10,6 @@ class DefaultController extends Controller
 
     public function actionIndex()
     {
-        // TODO: Implement actionIndex() method.
+        return $this->render('index');
     }
 }

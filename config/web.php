@@ -11,6 +11,11 @@ $config = [
             'rules' => [
             ]
     ],
+    'assets' => [
+        'bundles' => [
+            'app\assets\WebAssets'
+        ]
+    ],
     'modules' => [
     ]
 ];
