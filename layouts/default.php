@@ -1,4 +1,5 @@
 <?php
+use \core\helpers\Url;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,8 +13,13 @@
 <body class="admin-body">
 <?= $this->beginBody() ?>
 <header class="navbar navbar-inverse navbar-static-top">
-    <div class="navbar-header">
-        <a class="navbar-brand" href="#">Core-Lite Base Application</a>
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">
+                Core-Lite Base Application
+            </a>
+        </div>
+        <a href="<?= Url::toAction('login'); ?>" class="btn btn-default navbar-btn navbar-right">Sign In</a>
     </div>
 </header>
 <div class="container">

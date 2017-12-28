@@ -1,0 +1,166 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "848cc5d05389d0abb7765647736f766a",
+    "packages": [
+        {
+            "name": "pfilsx/core-lite",
+            "version": "dev-feature/view-rework",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pfilsx/core-lite.git",
+                "reference": "005dbc38ecccf315801533562d0d4112689aa51d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pfilsx/core-lite/zipball/005dbc38ecccf315801533562d0d4112689aa51d",
+                "reference": "005dbc38ecccf315801533562d0d4112689aa51d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-mbstring": "*",
+                "lib-pcre": "*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "core\\": ""
+                }
+            },
+            "authors": [
+                {
+                    "name": "Pavel Filimonov",
+                    "email": "pfilsx@gmail.com",
+                    "homepage": "https://github.com/pfilsx/",
+                    "role": "Core developer and project lead"
+                }
+            ],
+            "description": "Core-Lite PHP Framework",
+            "homepage": "https://github.com/pfilsx/core-lite",
+            "keywords": [
+                "core-lite",
+                "crl",
+                "framework"
+            ],
+            "support": {
+                "issues": "https://github.com/pfilsx/core-lite/issues?state=open",
+                "source": "https://github.com/pfilsx/core-lite"
+            },
+            "time": "2017-12-25T09:19:21+00:00"
+        },
+        {
+            "name": "pfilsx/core-lite-bootstrap3",
+            "version": "1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pfilsx/core-lite-bootstrap3.git",
+                "reference": "2cc1ccb46682afb51efc65b8a0db6c39ebab115f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pfilsx/core-lite-bootstrap3/zipball/2cc1ccb46682afb51efc65b8a0db6c39ebab115f",
+                "reference": "2cc1ccb46682afb51efc65b8a0db6c39ebab115f",
+                "shasum": ""
+            },
+            "require": {
+                "pfilsx/core-lite": ">= 1.6"
+            },
+            "type": "core-lite-extension",
+            "autoload": {
+                "psr-4": {
+                    "core\\bootstrap\\": ""
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Pavel Filimonov",
+                    "email": "pfilsx@gmail.com"
+                }
+            ],
+            "description": "The Twitter Bootstrap 3 extension for the Core-Lite framework",
+            "keywords": [
+                "bootstrap",
+                "core-lite"
+            ],
+            "support": {
+                "issues": "https://github.com/pfilsx/core-lite-bootstap3/issues",
+                "source": "https://github.com/pfilsx/core-lite-bootstap3"
+            },
+            "time": "2017-12-07T15:26:05+00:00"
+        },
+        {
+            "name": "pfilsx/core-lite-generator",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pfilsx/core-lite-generator.git",
+                "reference": "2e8ac22b53d9e998480d674dd7b215ae88309e9c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pfilsx/core-lite-generator/zipball/2e8ac22b53d9e998480d674dd7b215ae88309e9c",
+                "reference": "2e8ac22b53d9e998480d674dd7b215ae88309e9c",
+                "shasum": ""
+            },
+            "require": {
+                "pfilsx/core-lite": ">= 1.6",
+                "pfilsx/core-lite-bootstrap3": ">= 1.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "core\\generator\\": ""
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Pavel Filimonov",
+                    "email": "pfilsx@gmail.com"
+                }
+            ],
+            "description": "The CRUD generator for Core-Lite framework",
+            "keywords": [
+                "CRUD",
+                "core-lite"
+            ],
+            "support": {
+                "issues": "https://github.com/pfilsx/core-lite-generator/issues",
+                "source": "https://github.com/pfilsx/core-lite-generator"
+            },
+            "time": "2017-12-07T15:28:27+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [
+        {
+            "alias": "1.6-dev",
+            "alias_normalized": "1.6.0.0-dev",
+            "version": "dev-feature/view-rework",
+            "package": "pfilsx/core-lite"
+        }
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "pfilsx/core-lite": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

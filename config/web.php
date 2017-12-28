@@ -6,10 +6,12 @@ $config = [
     'routing' => [
             'defaultPath' => 'default/index',
             'controllersNamespace' => 'app\controllers',
-            'viewsPath' => '@app/views',
-            'layout' => '@app/layouts/default',
             'rules' => [
             ]
+    ],
+    'view' => [
+        'viewsPath' => '@app/views',
+        'layout' => '@app/layouts/default',
     ],
     'assets' => [
         'bundles' => [
@@ -17,11 +19,12 @@ $config = [
         ]
     ],
     'modules' => [
+        ['class' => 'app\modules\crl_debug\CrlDebug', 'storageType' => 'file']
     ]
 ];
 
 if (CRL_ENV == 'dev'){
-    $config['modules']['generator'] = [
+    $config['modules'][] = [
         'class' => 'core\generator\Generator'
     ];
 }
